@@ -1,2 +1,2 @@
-# conference
-Responsive HTML5 Bootstrap 3 template for Event Site
+# UX Idol
+Responsive HTML5 Bootstrap 3 site for UX Idol
