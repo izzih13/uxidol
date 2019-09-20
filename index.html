@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body data-spy="scroll" data-target="#site-nav">
     <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
@@ -43,7 +45,7 @@
                     <!-- navigation menu -->
                     <li class="active"><a data-scroll href="#about">About</a></li>
                     <li><a data-scroll href="#registration">Pricing</a></li>
-                    <!--<li><a data-scroll href="#schedule">Schedule</a></li> -->
+                    <li><a data-scroll href="#testimonials">Testimonials</a></li>
                     <!-- <li><a data-scroll href="#judges">A Word</a></li> -->
                     <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
                     <li><a data-scroll href="#photos">Photos</a></li>
@@ -157,85 +159,165 @@
     <section id="facts" class="section bg-image-1 facts text-center">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
+                <!-- <div class="col-sm-2">
 
                     <i class="ion-ios-calendar"></i>
                     <h3>November 09<br>2019</h3>
 
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-2">
 
                     <i class="ion-ios-location"></i>
                     <h3>San Diego<br>California</h3>
 
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-2">
 
                     <i class="ion-pricetags"></i>
                     <h3>Limited<br>VIP Tickets</h3>
 
-                </div>
-          <!--      <div class="col-sm-2">
+                </div> -->
+              <div class="col-sm-4">
 
-                    <i class="ion-pricetags"></i>
+                    <i class="ion-android-people"></i>
                     <h3>04<br>Judges</h3>
 
                 </div>
 
-                <div class="col-sm-2">
+                <div class="col-sm-4">
 
                     <i class="ion-speakerphone"></i>
                     <h3>05<br>Presenters</h3>
 
                 </div>
 
-                <div class="col-sm-2">
+                <div class="col-sm-4">
 
                     <i class="ion-clock"></i>
                     <h3>04<br>Hours</h3>
 
-                </div> -->
+                </div>
             </div><!-- row -->
         </div><!-- container -->
     </section>
 
     <!--REGISTRATION-->
         <section id="registration" class="section registration">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="section-title">Pricing</h3>
-                    </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <h3>Early Bird Tickets</h3>
-                    <p>Early Bird Tickets are available from 09/12 until 09/31. Pricing is <b>$10</b> for General Admission and <b>$20</b> for VIP.</p>
+          <section class="pricing-table">
+              <div class="container">
+                  <div class="block-heading">
+                    <h2>Pricing</h2>
 
-                    <h3>Standard Tickets</h3>
-                    <p>Tickets purchased from 10/01 until 11/08 will be priced as <b>$20</b> for General Admission and <b>$30</b> for VIP.</p>
-
-                    <h3>Day-Of Tickets</h3>
-                    <p>Tickets purchased on the day of the event, 11/09, will be <b>$25</b> and must be purchased online.</br>
-                    VIP tickets are not available the day of the event.</p>
                   </div>
-                </div> <!-- row -->
-
-            </div> <!-- container -->
+                  <div class="row justify-content-md-center">
+                      <div class="col-md-5 col-lg-4">
+                          <div class="item">
+                              <div class="heading">
+                                  <h3>EARLY BIRD</h3>
+                              </div>
+                              <p>Tickets purchased from <b>September 20</b> to <b>September 31</b>.</p>
+                              <div class="features">
+                                  <h3><center><span class="feature">General Admission</span></center> </h3>
+                                  <div class="price">
+                                      <h4>$10</h4>
+                                  </div>
+                                    <h3><center> <i class="ion-android-remove"></i></h3></center>
+                                  <h3><center><span class="feature">VIP</span></center></h3>
+                              </div>
+                              <div class="price">
+                                  <h4>$20</h4>
+                              </div>
+                              <button class="btn btn-block btn-outline-secondary" type="submit">BUY NOW</button>
+                          </div>
+                      </div>
+                      <div class="col-md-5 col-lg-4">
+                          <div class="item">
+                              <!-- <div class="ribbon">Best Value</div> -->
+                              <div class="heading">
+                                  <h3>STANDARD</h3>
+                              </div>
+                              <p>Tickets purchased from <b>October 01</b> to <b>November 08</b>.</p>
+                              <div class="features">
+                                <h3><center><span class="feature">General Admission</span></center> </h3>
+                                <div class="price">
+                                    <h4>$20</h4>
+                                </div>
+                                  <h3><center> <i class="ion-android-remove"></i></h3></center>
+                                <h3><center><span class="feature">VIP</span></center></h3>
+                            </div>
+                            <div class="price">
+                                <h4>$30</h4>
+                            </div>
+                              <button class="btn btn-block btn-outline-secondary" type="submit">BUY NOW</button>
+                          </div>
+                      </div>
+                      <div class="col-md-5 col-lg-4">
+                          <div class="item">
+                              <div class="heading">
+                                  <h3>DAY OF</h3>
+                              </div>
+                              <p>Tickets purchased on <b>November 09</b> must be purchased online.</p>
+                              <div class="features">
+                                <h3><center><span class="feature">General Admission</span></center> </h3>
+                                <div class="price">
+                                    <h4>$25</h4>
+                                </div>
+                                  <h3><center> <i class="ion-android-remove"></i></h3></center>
+                                <h3><center><span class="feature">VIP</span></center></h3>
+                            </div>
+                            <div class="price">
+                                <h4>N/A</h4>
+                            </div>
+                              <button class="btn btn-block btn-outline-secondary" type="submit">BUY NOW</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
         </section>
 
-<!-- BUY TIX -->
-        <section id="contribution" class="section bg-image-2 contribution">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="text-uppercase mt0 font-400">Buy Tickets Here</h3>
-    <!-- TicketSpice widgets can go here -->
-                        <a class="btn btn-white" href="#">Submit</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- Testimonials -->
+<section id="testimonials" class="section testimonials bg-image-2">
+        <div class="container content">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="background-color: #fff;">
+            <!-- Indicators --> <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row"> <div class="col-xs-12">
+                  <div class="thumbnail adjust1"> <div class="col-md-2 col-sm-2 col-xs-12">
+                    <img class="media-object img-rounded img-responsive" src="http://placehold.it/100"> </div>
+                    <div class="col-md-10 col-sm-10 col-xs-12">
+                      <div class="caption"> <p class="text-info lead adjust2">I can't wait to test this out.</p> <p><span class="glyphicon glyphicon-thumbs-up"></span> This is a testimonial window. Feedback of user can be displayed here.</p> <blockquote class="adjust2"> <p>Abhijit Goswami</p>
+                        <small><cite title="Source Title"><i class="glyphicon glyphicon-globe"></i> www.example1.com </cite></small> </blockquote> </div> </div> </div> </div> </div> </div>
+
+                <div class="item">
+                  <div class="row"> <div class="col-xs-12">
+                    <div class="thumbnail adjust1"> <div class="col-md-2 col-sm-2 col-xs-12">
+                      <img class="media-object img-rounded img-responsive" src="http://placehold.it/100"> </div>
+                      <div class="col-md-10 col-sm-10 col-xs-12"> <div class="caption"> <p class="text-info lead adjust2">I can't wait to test this out.</p>
+                        <p><span class="glyphicon glyphicon-thumbs-up"></span> This is a testimonial window. Feedback of user can be displayed here.</p> <blockquote class="adjust2"> <p>Abhijit Goswami</p>
+                          <small><cite title="Source Title"><i class="glyphicon glyphicon-globe"></i> www.example2.com</cite></small> </blockquote> </div> </div> </div> </div> </div> </div>
+
+                <div class="item">
+                  <div class="row"> <div class="col-xs-12">
+                    <div class="thumbnail adjust1"> <div class="col-md-2 col-sm-2 col-xs-12">
+                      <img class="media-object img-rounded img-responsive" src="http://placehold.it/100"> </div>
+                      <div class="col-md-10 col-sm-10 col-xs-12"> <div class="caption">
+                        <p class="text-info lead adjust2">I can't wait to test this out.</p> <p><span class="glyphicon glyphicon-thumbs-up"></span> This is a testimonial window. Feedback of user can be displayed here.</p> <blockquote class="adjust2"> <p>Abhijit Goswami</p>
+                          <small><cite title="Source Title"><i class="glyphicon glyphicon-globe"></i> www.example3.com</cite></small> </blockquote> </div> </div> </div> </div> </div> </div> </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span> </a> </div> </div>
+          </section>
+
 
 <!-- JUDGES -->
     <section id="judges" class="section judges" style="background-color: #D8DBBA;">
