@@ -3173,6 +3173,78 @@ fieldset[disabled] .btn-primary.active {
   color: #337ab7;
   background-color: #ffffff;
 }
+.btn-secondary {
+  color: #ffffff;
+  background-color: #868e96;
+  border-color: #495057;
+}
+.btn-outline-secondary {
+  color: #000;
+  background-color: #fff;
+  border-color: #868e96;
+}
+.btn-secondary:focus,
+.btn-secondary.focus {
+  color: #ffffff;
+  background-color: #868e96;
+  border-color: #495057;
+}
+.btn-secondary:hover {
+  color: #ffffff;
+  background-color: #868e96;
+  border-color: #343a40;
+}
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+  color: #ffffff;
+  background-color: #868e96;
+  border-color: #343a40;
+}
+.btn-secondary:active:hover,
+.btn-secondary.active:hover,
+.open > .dropdown-toggle.btn-secondary:hover,
+.btn-secondary:active:focus,
+.btn-secondary.active:focus,
+.open > .dropdown-toggle.btn-secondary:focus,
+.btn-secondary:active.focus,
+.btn-secondary.active.focus,
+.open > .dropdown-toggle.btn-secondary.focus {
+  color: #ffffff;
+  background-color: #868e96;
+  border-color: #343a40;
+}
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+  background-image: none;
+}
+.btn-secondary.disabled,
+.btn-secondary[disabled],
+fieldset[disabled] .btn-secondary,
+.btn-secondary.disabled:hover,
+.btn-secondary[disabled]:hover,
+fieldset[disabled] .btn-secondary:hover,
+.btn-secondary.disabled:focus,
+.btn-secondary[disabled]:focus,
+fieldset[disabled] .btn-secondary:focus,
+.btn-secondary.disabled.focus,
+.btn-secondary[disabled].focus,
+fieldset[disabled] .btn-secondary.focus,
+.btn-secondary.disabled:active,
+.btn-secondary[disabled]:active,
+fieldset[disabled] .btn-secondary:active,
+.btn-secondary.disabled.active,
+.btn-secondary[disabled].active,
+fieldset[disabled] .btn-secondary.active {
+  background-color: #868e96;
+  border-color: #495057;
+}
+.btn-secondary .badge {
+  color: #868e96;
+  background-color: #ffffff;
+}
+
 .btn-success {
   color: #ffffff;
   background-color: #5cb85c;
